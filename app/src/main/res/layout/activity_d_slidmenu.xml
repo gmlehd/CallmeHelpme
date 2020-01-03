@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/color_D_Main">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp">
+
+        <CheckBox
+            android:id="@+id/chboxman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/man"
+            android:paddingHorizontal="15dp"/>
+
+        <CheckBox
+            android:id="@+id/chboxwoman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/woman"/>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/callbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/color_D_Main"
+        android:src="@drawable/callbtn" />
+
+    <SlidingDrawer
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:content="@id/contents"
+        android:handle="@id/menu"
+        android:orientation="vertical"
+        android:layout_gravity="center" >
+
+        <ImageButton
+            android:id="@+id/menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#E4E8F0"
+            android:src="@drawable/menu" />
+
+        <LinearLayout
+            android:id="@+id/contents"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="#c6cee5">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="30dp">
+
+                <ImageButton
+                    android:id="@+id/siren"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="100dp"
+                    android:background="#c6cee5"
+                    android:src="@drawable/siren" />
+
+                <ImageButton
+                    android:id="@+id/flash"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#c6cee5"
+                    android:src="@drawable/flash" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="30dp">
+
+                <CheckBox
+                    android:id="@+id/callstate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="100dp"
+                    android:background="#c6cee5"
+                    android:button="@drawable/statecall" />
+
+                <ImageButton
+                    android:id="@+id/nightver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#c6cee5"
+                    android:src="@drawable/night" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="30dp">
+
+                <ImageButton
+                    android:id="@+id/user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#c6cee5"
+                    android:layout_marginRight="100dp"
+                    android:src="@drawable/user" />
+
+                <ImageButton
+                    android:id="@+id/staff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#c6cee5"
+                    android:src="@drawable/staff" />
+            </LinearLayout>
+        </LinearLayout>
+    </SlidingDrawer>
+</LinearLayout>

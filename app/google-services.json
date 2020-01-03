@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "537893889317",
+    "firebase_url": "https://callmehelpme-367be.firebaseio.com",
+    "project_id": "callmehelpme-367be",
+    "storage_bucket": "callmehelpme-367be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537893889317:android:baf16b1b52386a04b826cc",
+        "android_client_info": {
+          "package_name": "com.example.callmehelpme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537893889317-7cttqjjr6kq6e08e89i3n5img919dlea.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.callmehelpme",
+            "certificate_hash": "d135b48284af9aec827224cc2d0d2847a83eea22"
+          }
+        },
+        {
+          "client_id": "537893889317-km94khnb7er92vfotblj7jt7i8diknbj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5-stDlGb_MHI1ml9IFSkZ3fL1ZBCHcic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537893889317-km94khnb7er92vfotblj7jt7i8diknbj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
